@@ -1,0 +1,138 @@
+# Classes Index
+
+- **APIError** < StandardError
+- **APIError** < StandardError
+- **APIError** < StandardError
+- **ActionRow** < Base
+- **AnalyticsPlugin** < Plugin
+- **ApplicationCommand** < Entity
+- **AsyncRuntime**
+- **Attachment** < Entity
+- **AutoModerationActionExecutionEvent** < Event
+- **AutoModerationRule** < Entity
+- **AutoModerationRuleCreateEvent** < Event
+- **AutoModerationRuleDeleteEvent** < Event
+- **AutoModerationRuleUpdateEvent** < Event
+- **BadRequestError** < APIError
+- **BadRequestError** < APIError
+- **Base**
+- **Bot**
+- **Builder**
+- **Button** < Base
+- **CacheStore**
+- **Channel** < Entity
+- **ChannelBuilder**
+- **ChannelCreateEvent** < Event
+- **ChannelDeleteEvent** < Event
+- **ChannelPinsUpdateEvent** < Event
+- **ChannelSelect** < SelectMenu
+- **ChannelUpdateEvent** < Event
+- **Color**
+- **Command**
+- **CommandBuilder**
+- **CommandContext**
+- **CommandSystem**
+- **ComponentBuilder**
+- **ConfigurableCache**
+- **Configuration**
+- **Container** < Base
+- **ContextualLogger**
+- **Embed** < Entity
+- **EmbedAuthor** < Entity
+- **EmbedBuilder**
+- **EmbedField** < Entity
+- **EmbedFooter** < Entity
+- **EmbedImage** < Entity
+- **EmbedProvider** < Entity
+- **EmbedThumbnail** < Entity
+- **EmbedVideo** < Entity
+- **Emoji** < Entity
+- **Entity**
+- **EntityCache**
+- **EntityFactory**
+- **Event**
+- **EventBus**
+- **EventHandler**
+- **FileComponent** < Base
+- **GatewayClient**
+- **Guild** < Entity
+- **GuildBanAddEvent** < Event
+- **GuildBanRemoveEvent** < Event
+- **GuildCreateEvent** < Event
+- **GuildDeleteEvent** < Event
+- **GuildMemberAddEvent** < Event
+- **GuildMemberRemoveEvent** < Event
+- **GuildMemberUpdateEvent** < Event
+- **GuildRoleCreateEvent** < Event
+- **GuildRoleDeleteEvent** < Event
+- **GuildRoleUpdateEvent** < Event
+- **GuildScheduledEvent** < Entity
+- **GuildScheduledEventCreateEvent** < Event
+- **GuildScheduledEventDeleteEvent** < Event
+- **GuildScheduledEventUpdateEvent** < Event
+- **GuildScheduledEventUserAddEvent** < Event
+- **GuildScheduledEventUserRemoveEvent** < Event
+- **GuildUpdateEvent** < Event
+- **HotReloadManager**
+- **Interaction** < Entity
+- **InteractionCreateEvent** < Event
+- **InvalidRequestBucket**
+- **InviteBuilder**
+- **Logger**
+- **MediaGallery** < Base
+- **Member** < Entity
+- **MemberFlags**
+- **MemoryStore** < CacheStore
+- **MentionableSelect** < SelectMenu
+- **Message** < Entity
+- **MessageBuilder**
+- **MessageCreateEvent** < Event
+- **MessageDeleteBulkEvent** < Event
+- **MessageDeleteEvent** < Event
+- **MessageFlags**
+- **MessageIterator**
+- **MessageReactionAddEvent** < Event
+- **MessageReactionRemoveAllEvent** < Event
+- **MessageReactionRemoveEvent** < Event
+- **MessageUpdateEvent** < Event
+- **Middleware**
+- **ModalBuilder**
+- **Permission**
+- **Plugin**
+- **PluginRegistry**
+- **RateLimitedError** < APIError
+- **RateLimiter**
+- **ReadyEvent** < Event
+- **RedisStore** < CacheStore
+- **RequestQueue**
+- **ReshardManager**
+- **ResolvedData**
+- **RestClient**
+- **RestProxy**
+- **ResumedEvent** < Event
+- **Role** < Entity
+- **RoleSelect** < SelectMenu
+- **RoleTags**
+- **ScalableRestClient**
+- **Section** < Base
+- **SelectMenu** < Base
+- **Separator** < Base
+- **ShardManager**
+- **Snowflake**
+- **Sticker** < Entity
+- **StringSelect** < SelectMenu
+- **Subcommand**
+- **SubcommandGroup**
+- **Subscription**
+- **TextDisplay** < Base
+- **TextInput** < Base
+- **ThreadCreateEvent** < Event
+- **ThreadDeleteEvent** < Event
+- **ThreadListSyncEvent** < Event
+- **ThreadMemberUpdateEvent** < Event
+- **ThreadMembersUpdateEvent** < Event
+- **ThreadUpdateEvent** < Event
+- **Thumbnail** < Base
+- **TimeoutError** < StandardError
+- **User** < Entity
+- **UserSelect** < SelectMenu

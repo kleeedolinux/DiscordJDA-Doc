@@ -1,0 +1,1575 @@
+{
+  "search_guild_members": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "send_request": [
+    "files/scalable_rest_client_rb.md"
+  ],
+  "set_filter": [
+    "files/configurable_cache_rb.md",
+    "files/configurable_cache_rb.md"
+  ],
+  "limited?": [
+    "files/rate_limiter_rb.md",
+    "files/rate_limiter_rb.md"
+  ],
+  "request_multipart": [
+    "files/rest_client_rb.md"
+  ],
+  "request_guild_members": [
+    "files/gateway_client_rb.md",
+    "files/gateway_client_rb.md"
+  ],
+  "wait_for_old_shards_drain": [
+    "files/reshard_manager_rb.md"
+  ],
+  "disconnect": [
+    "files/gateway_client_rb.md",
+    "files/gateway_client_rb.md"
+  ],
+  "once": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "bulk_delete_messages": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "fetch_recommended_shards": [
+    "files/shard_manager_rb.md"
+  ],
+  "build_option": [
+    "files/application_command_rb.md"
+  ],
+  "delete_channel": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "send_payload": [
+    "files/gateway_client_rb.md"
+  ],
+  "CommandContext": [
+    "classes/index.md#CommandContext"
+  ],
+  "check_cache_health": [
+    "files/analytics_plugin_rb.md",
+    "files/analytics_plugin_rb.md"
+  ],
+  "gateway_metrics": [
+    "files/analytics_plugin_rb.md"
+  ],
+  "bucket_id": [
+    "files/rate_limiter_rb.md",
+    "files/rate_limiter_rb.md"
+  ],
+  "bypasses_verification?": [
+    "files/member_rb.md",
+    "files/member_rb.md"
+  ],
+  "handle_invalid_session": [
+    "files/gateway_client_rb.md"
+  ],
+  "has_reactions?": [
+    "files/message_rb.md",
+    "files/message_rb.md"
+  ],
+  "modal_value": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "memory_usage": [
+    "files/analytics_plugin_rb.md",
+    "files/analytics_plugin_rb.md"
+  ],
+  "requires_2fa?": [
+    "files/guild_rb.md",
+    "files/guild_rb.md"
+  ],
+  "file_wrapper": [
+    "files/guild_rb.md"
+  ],
+  "publish": [
+    "files/bus_rb.md",
+    "files/bus_rb.md"
+  ],
+  "enable_auto_reshard": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "initialize": [
+    "files/base_rb.md",
+    "files/base_rb.md",
+    "files/color_rb.md",
+    "files/color_rb.md"
+  ],
+  "handle_hello": [
+    "files/gateway_client_rb.md"
+  ],
+  "add_guild_member_role": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "every": [
+    "files/async_runtime_rb.md",
+    "files/async_runtime_rb.md"
+  ],
+  "count": [
+    "files/registry_rb.md",
+    "files/registry_rb.md"
+  ],
+  "role_count": [
+    "files/guild_rb.md",
+    "files/guild_rb.md"
+  ],
+  "creator": [
+    "files/support_rb.md",
+    "files/support_rb.md"
+  ],
+  "inspect": [
+    "files/base_rb.md",
+    "files/base_rb.md",
+    "files/color_rb.md",
+    "files/color_rb.md"
+  ],
+  "delete": [
+    "files/memory_store_rb.md",
+    "files/memory_store_rb.md",
+    "files/rest_client_rb.md",
+    "files/rest_client_rb.md",
+    "files/message_rb.md",
+    "files/message_rb.md"
+  ],
+  "messages_iterator": [
+    "files/channel_rb.md",
+    "files/channel_rb.md"
+  ],
+  "collect_periodic_metrics": [
+    "files/analytics_plugin_rb.md"
+  ],
+  "bulk_register_commands": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "release_pause": [
+    "files/invalid_bucket_rb.md",
+    "files/invalid_bucket_rb.md"
+  ],
+  "guild_roles": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "coerce_value": [
+    "files/base_rb.md"
+  ],
+  "resolve_user": [
+    "files/interaction_rb.md"
+  ],
+  "check_ttl": [
+    "files/memory_store_rb.md"
+  ],
+  "keys": [
+    "files/memory_store_rb.md",
+    "files/memory_store_rb.md",
+    "files/redis_store_rb.md",
+    "files/redis_store_rb.md"
+  ],
+  "channel": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "on": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "setup_interaction_handlers": [
+    "files/bot_rb.md"
+  ],
+  "with": [
+    "files/configurable_cache_rb.md",
+    "files/configurable_cache_rb.md"
+  ],
+  "reset_time": [
+    "files/rate_limiter_rb.md",
+    "files/rate_limiter_rb.md"
+  ],
+  "GuildBanRemoveEvent": [
+    "classes/index.md#GuildBanRemoveEvent"
+  ],
+  "context_menu": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "create_webhook": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "healthy?": [
+    "files/invalid_bucket_rb.md",
+    "files/invalid_bucket_rb.md"
+  ],
+  "GuildRoleUpdateEvent": [
+    "classes/index.md#GuildRoleUpdateEvent"
+  ],
+  "execute_handler": [
+    "files/bus_rb.md"
+  ],
+  "get": [
+    "files/entity_cache_rb.md",
+    "files/registry_rb.md",
+    "files/registry_rb.md"
+  ],
+  "option": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "emoji_for_status": [
+    "files/analytics_plugin_rb.md"
+  ],
+  "info": [
+    "files/rate_limiter_rb.md",
+    "files/rate_limiter_rb.md"
+  ],
+  "check_rate_limiter_health": [
+    "files/analytics_plugin_rb.md",
+    "files/analytics_plugin_rb.md"
+  ],
+  "identify": [
+    "files/gateway_client_rb.md",
+    "files/gateway_client_rb.md"
+  ],
+  "get_followup": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "update": [
+    "files/rate_limiter_rb.md",
+    "files/rate_limiter_rb.md"
+  ],
+  "MessageReactionAddEvent": [
+    "classes/index.md#MessageReactionAddEvent"
+  ],
+  "check_for_changes": [
+    "files/hot_reload_manager_rb.md"
+  ],
+  "edit_permissions": [
+    "files/application_command_rb.md",
+    "files/application_command_rb.md"
+  ],
+  "exist?": [
+    "files/memory_store_rb.md",
+    "files/memory_store_rb.md"
+  ],
+  "shard_drained?": [
+    "files/reshard_manager_rb.md"
+  ],
+  "handle_messages": [
+    "files/gateway_client_rb.md"
+  ],
+  "fetch_gateway_url": [
+    "files/gateway_client_rb.md"
+  ],
+  "ModalBuilder": [
+    "classes/index.md#ModalBuilder"
+  ],
+  "handle_completed_request": [
+    "files/request_queue_rb.md",
+    "files/request_queue_rb.md"
+  ],
+  "modal_values": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "stickers": [
+    "files/message_rb.md",
+    "files/message_rb.md"
+  ],
+  "handle_component": [
+    "files/bot_rb.md"
+  ],
+  "emoji_count": [
+    "files/guild_rb.md",
+    "files/guild_rb.md"
+  ],
+  "webhook?": [
+    "files/message_rb.md",
+    "files/message_rb.md"
+  ],
+  "vanity_invite_url": [
+    "files/guild_rb.md",
+    "files/guild_rb.md"
+  ],
+  "selected_values": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "send_message": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "process_rate_limited_paths": [
+    "files/scalable_rest_client_rb.md",
+    "files/scalable_rest_client_rb.md"
+  ],
+  "allowed_mentions": [
+    "files/message_builder_rb.md",
+    "files/message_builder_rb.md"
+  ],
+  "modify_guild_role": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "nsfw": [
+    "files/application_command_rb.md",
+    "files/application_command_rb.md"
+  ],
+  "update_message": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "modal_data": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "guild_member": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "owner?": [
+    "files/member_rb.md",
+    "files/member_rb.md"
+  ],
+  "delete_guild_role": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "update_token_queues": [
+    "files/scalable_rest_client_rb.md",
+    "files/scalable_rest_client_rb.md"
+  ],
+  "get_average": [
+    "files/analytics_plugin_rb.md",
+    "files/analytics_plugin_rb.md"
+  ],
+  "run_health_checks": [
+    "files/analytics_plugin_rb.md",
+    "files/analytics_plugin_rb.md"
+  ],
+  "notify_waiters": [
+    "files/rate_limiter_rb.md"
+  ],
+  "thread": [
+    "files/message_rb.md",
+    "files/message_rb.md"
+  ],
+  "build_cache": [
+    "files/bot_rb.md"
+  ],
+  "resolve_channel": [
+    "files/interaction_rb.md"
+  ],
+  "shard_id": [
+    "files/hot_reload_manager_rb.md"
+  ],
+  "modify_guild_member": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "pin": [
+    "files/message_rb.md",
+    "files/message_rb.md"
+  ],
+  "modal": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "application": [
+    "files/message_rb.md",
+    "files/message_rb.md"
+  ],
+  "ComponentBuilder": [
+    "classes/index.md#ComponentBuilder"
+  ],
+  "self": [
+    "files/user_rb.md",
+    "files/user_rb.md",
+    "files/user_rb.md",
+    "files/user_rb.md",
+    "files/user_rb.md",
+    "files/user_rb.md"
+  ],
+  "has_content_filter?": [
+    "files/guild_rb.md",
+    "files/guild_rb.md"
+  ],
+  "resolve_attachment": [
+    "files/interaction_rb.md"
+  ],
+  "has_poll?": [
+    "files/message_rb.md",
+    "files/message_rb.md"
+  ],
+  "build_endpoint": [
+    "files/gateway_client_rb.md"
+  ],
+  "edit": [
+    "files/message_rb.md",
+    "files/message_rb.md"
+  ],
+  "filter_properties": [
+    "files/configurable_cache_rb.md"
+  ],
+  "deleted?": [
+    "files/message_rb.md",
+    "files/message_rb.md"
+  ],
+  "remove_all_reactions": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "clear_filter": [
+    "files/configurable_cache_rb.md",
+    "files/configurable_cache_rb.md"
+  ],
+  "unuse": [
+    "files/bus_rb.md",
+    "files/bus_rb.md"
+  ],
+  "preserve_bot_state": [
+    "files/hot_reload_manager_rb.md"
+  ],
+  "focused_option": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "defer": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "followup": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "edit_followup": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "resolve_option_value": [
+    "files/interaction_rb.md"
+  ],
+  "enable_hot_reload": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "dashboard_data": [
+    "files/analytics_plugin_rb.md",
+    "files/analytics_plugin_rb.md"
+  ],
+  "default?": [
+    "files/color_rb.md",
+    "files/color_rb.md"
+  ],
+  "author": [
+    "files/base_rb.md"
+  ],
+  "summary": [
+    "files/guild_rb.md",
+    "files/guild_rb.md",
+    "files/analytics_plugin_rb.md",
+    "files/analytics_plugin_rb.md"
+  ],
+  "guild_id": [
+    "files/support_rb.md",
+    "files/support_rb.md"
+  ],
+  "to_hex": [
+    "files/color_rb.md",
+    "files/color_rb.md"
+  ],
+  "has_vanity_url?": [
+    "files/guild_rb.md",
+    "files/guild_rb.md"
+  ],
+  "GuildMemberAddEvent": [
+    "classes/index.md#GuildMemberAddEvent"
+  ],
+  "register_handlers": [
+    "files/base_rb.md",
+    "files/base_rb.md"
+  ],
+  "reshard_to": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "delete_sticker": [
+    "files/guild_rb.md",
+    "files/guild_rb.md"
+  ],
+  "to_i": [
+    "files/color_rb.md",
+    "files/color_rb.md"
+  ],
+  "invalidate_pattern": [
+    "files/configurable_cache_rb.md",
+    "files/configurable_cache_rb.md"
+  ],
+  "ThreadListSyncEvent": [
+    "classes/index.md#ThreadListSyncEvent"
+  ],
+  "Subscription": [
+    "classes/index.md#Subscription"
+  ],
+  "wait_for_ready": [
+    "files/shard_manager_rb.md"
+  ],
+  "ReadyEvent": [
+    "classes/index.md#ReadyEvent"
+  ],
+  "delete_original": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "setup_event_handlers": [
+    "files/bot_rb.md"
+  ],
+  "stop_watching": [
+    "files/hot_reload_manager_rb.md"
+  ],
+  "position": [
+    "files/message_rb.md",
+    "files/message_rb.md"
+  ],
+  "hash": [
+    "files/base_rb.md",
+    "files/base_rb.md",
+    "files/color_rb.md",
+    "files/color_rb.md"
+  ],
+  "MessageReactionRemoveAllEvent": [
+    "classes/index.md#MessageReactionRemoveAllEvent"
+  ],
+  "flags": [
+    "files/message_builder_rb.md",
+    "files/message_builder_rb.md"
+  ],
+  "check_rate_limits": [
+    "files/scalable_rest_client_rb.md",
+    "files/scalable_rest_client_rb.md"
+  ],
+  "handle_modal_submit": [
+    "files/bot_rb.md"
+  ],
+  "requires_verification?": [
+    "files/guild_rb.md",
+    "files/guild_rb.md"
+  ],
+  "has_attachments?": [
+    "files/message_rb.md",
+    "files/message_rb.md"
+  ],
+  "system?": [
+    "files/message_rb.md",
+    "files/message_rb.md"
+  ],
+  "format_duration": [
+    "files/analytics_plugin_rb.md"
+  ],
+  "moderation_level": [
+    "files/guild_rb.md",
+    "files/guild_rb.md"
+  ],
+  "make_http_request": [
+    "files/rest_client_rb.md",
+    "files/scalable_rest_client_rb.md"
+  ],
+  "request": [
+    "files/rest_client_rb.md"
+  ],
+  "build_multipart_file": [
+    "files/rest_client_rb.md"
+  ],
+  "check_permissions": [
+    "files/command_system_rb.md",
+    "files/command_system_rb.md",
+    "files/command_system_rb.md"
+  ],
+  "defer_update": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "modify_sticker": [
+    "files/guild_rb.md",
+    "files/guild_rb.md"
+  ],
+  "rest_metrics": [
+    "files/analytics_plugin_rb.md"
+  ],
+  "valid?": [
+    "files/color_rb.md",
+    "files/color_rb.md"
+  ],
+  "has_embeds?": [
+    "files/message_rb.md",
+    "files/message_rb.md"
+  ],
+  "content": [
+    "files/base_rb.md"
+  ],
+  "names": [
+    "files/registry_rb.md",
+    "files/registry_rb.md"
+  ],
+  "delete_global_command": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "event_types": [
+    "files/bus_rb.md",
+    "files/bus_rb.md"
+  ],
+  "start_shards": [
+    "files/bot_rb.md"
+  ],
+  "delete_followup": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "invalid_bucket_status": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "unregister": [
+    "files/registry_rb.md",
+    "files/registry_rb.md"
+  ],
+  "MessageCreateEvent": [
+    "classes/index.md#MessageCreateEvent"
+  ],
+  "debounce_reload": [
+    "files/hot_reload_manager_rb.md"
+  ],
+  "start_heartbeat": [
+    "files/gateway_client_rb.md"
+  ],
+  "use": [
+    "files/bot_rb.md",
+    "files/bot_rb.md",
+    "files/bus_rb.md",
+    "files/bus_rb.md"
+  ],
+  "time_until_reset": [
+    "files/rate_limiter_rb.md",
+    "files/rate_limiter_rb.md"
+  ],
+  "execute_webhook": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "patch": [
+    "files/rest_client_rb.md",
+    "files/rest_client_rb.md"
+  ],
+  "precise_sleep": [
+    "files/rate_limiter_rb.md"
+  ],
+  "guild_bans": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "resolved_data": [
+    "files/message_rb.md",
+    "files/message_rb.md"
+  ],
+  "has_description?": [
+    "files/guild_rb.md",
+    "files/guild_rb.md"
+  ],
+  "process_response": [
+    "files/scalable_rest_client_rb.md"
+  ],
+  "MemberFlags": [
+    "classes/index.md#MemberFlags"
+  ],
+  "GuildRoleCreateEvent": [
+    "classes/index.md#GuildRoleCreateEvent"
+  ],
+  "guild?": [
+    "files/base_rb.md"
+  ],
+  "react": [
+    "files/message_rb.md",
+    "files/message_rb.md"
+  ],
+  "ChannelPinsUpdateEvent": [
+    "classes/index.md#ChannelPinsUpdateEvent"
+  ],
+  "uptime_seconds": [
+    "files/analytics_plugin_rb.md"
+  ],
+  "create_guild_role": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "handle_response": [
+    "files/rest_client_rb.md",
+    "files/rest_proxy_rb.md"
+  ],
+  "handle_autocomplete": [
+    "files/bot_rb.md"
+  ],
+  "nsfw_allowed?": [
+    "files/guild_rb.md",
+    "files/guild_rb.md"
+  ],
+  "filter_for": [
+    "files/configurable_cache_rb.md",
+    "files/configurable_cache_rb.md"
+  ],
+  "remove_guild_member": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "guild_webhooks": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "guild_members": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "handle_slash_command": [
+    "files/bot_rb.md"
+  ],
+  "ThreadDeleteEvent": [
+    "classes/index.md#ThreadDeleteEvent"
+  ],
+  "ThreadMemberUpdateEvent": [
+    "classes/index.md#ThreadMemberUpdateEvent"
+  ],
+  "to_discord_format": [
+    "files/command_system_rb.md",
+    "files/command_system_rb.md"
+  ],
+  "check_rest_health": [
+    "files/analytics_plugin_rb.md",
+    "files/analytics_plugin_rb.md"
+  ],
+  "lighten": [
+    "files/color_rb.md",
+    "files/color_rb.md"
+  ],
+  "send_heartbeat": [
+    "files/gateway_client_rb.md"
+  ],
+  "valid_metric?": [
+    "files/analytics_plugin_rb.md"
+  ],
+  "GuildUpdateEvent": [
+    "classes/index.md#GuildUpdateEvent"
+  ],
+  "clean_expired": [
+    "files/memory_store_rb.md"
+  ],
+  "clear": [
+    "files/configurable_cache_rb.md",
+    "files/configurable_cache_rb.md",
+    "files/entity_cache_rb.md",
+    "files/entity_cache_rb.md",
+    "files/memory_store_rb.md",
+    "files/memory_store_rb.md",
+    "files/rate_limiter_rb.md",
+    "files/rate_limiter_rb.md",
+    "files/registry_rb.md",
+    "files/registry_rb.md"
+  ],
+  "extract_route": [
+    "files/rest_client_rb.md"
+  ],
+  "update_guild_count": [
+    "files/shard_manager_rb.md",
+    "files/shard_manager_rb.md"
+  ],
+  "darken": [
+    "files/color_rb.md",
+    "files/color_rb.md"
+  ],
+  "InteractionCreateEvent": [
+    "classes/index.md#InteractionCreateEvent"
+  ],
+  "add_reaction": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "create_guild_ban": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "build": [
+    "files/application_command_rb.md",
+    "files/application_command_rb.md"
+  ],
+  "start_new_shards": [
+    "files/reshard_manager_rb.md"
+  ],
+  "to_rgb_string": [
+    "files/color_rb.md",
+    "files/color_rb.md"
+  ],
+  "stop": [
+    "files/bot_rb.md",
+    "files/bot_rb.md",
+    "files/shard_manager_rb.md",
+    "files/shard_manager_rb.md"
+  ],
+  "wait_for_new_shards_ready": [
+    "files/reshard_manager_rb.md"
+  ],
+  "channel_messages": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "get_reactions": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "rgb": [
+    "files/color_rb.md",
+    "files/color_rb.md"
+  ],
+  "reinitialize_handlers": [
+    "files/hot_reload_manager_rb.md"
+  ],
+  "custom_id": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "calculate_cache_hit_rate": [
+    "files/analytics_plugin_rb.md"
+  ],
+  "modify_channel": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "widget_url": [
+    "files/guild_rb.md",
+    "files/guild_rb.md"
+  ],
+  "fill_buffer": [
+    "files/channel_rb.md"
+  ],
+  "clean_old_data": [
+    "files/analytics_plugin_rb.md"
+  ],
+  "message_flags": [
+    "files/message_rb.md",
+    "files/message_rb.md"
+  ],
+  "detect_issues": [
+    "files/analytics_plugin_rb.md"
+  ],
+  "CommandBuilder": [
+    "classes/index.md#CommandBuilder"
+  ],
+  "register_command": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "schedule_route_reset": [
+    "files/rate_limiter_rb.md"
+  ],
+  "created_at": [
+    "files/base_rb.md",
+    "files/base_rb.md",
+    "files/message_rb.md",
+    "files/message_rb.md"
+  ],
+  "MessageIterator": [
+    "classes/index.md#MessageIterator"
+  ],
+  "remove_guild_ban": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "b": [
+    "files/color_rb.md",
+    "files/color_rb.md"
+  ],
+  "premium_required": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "restore_bot_state": [
+    "files/hot_reload_manager_rb.md"
+  ],
+  "simplify_messages_url": [
+    "files/scalable_rest_client_rb.md"
+  ],
+  "advanced_filter": [
+    "files/configurable_cache_rb.md",
+    "files/configurable_cache_rb.md"
+  ],
+  "size": [
+    "files/memory_store_rb.md",
+    "files/memory_store_rb.md"
+  ],
+  "member_flags": [
+    "files/member_rb.md",
+    "files/member_rb.md"
+  ],
+  "autocomplete": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "wait_until_request_available": [
+    "files/request_queue_rb.md",
+    "files/request_queue_rb.md"
+  ],
+  "wait_for": [
+    "files/bot_rb.md",
+    "files/bot_rb.md",
+    "files/bus_rb.md",
+    "files/bus_rb.md"
+  ],
+  "search_messages": [
+    "files/channel_rb.md",
+    "files/channel_rb.md"
+  ],
+  "register_bot": [
+    "files/rest_proxy_rb.md",
+    "files/rest_proxy_rb.md"
+  ],
+  "ThreadCreateEvent": [
+    "classes/index.md#ThreadCreateEvent"
+  ],
+  "pretty_report": [
+    "files/analytics_plugin_rb.md",
+    "files/analytics_plugin_rb.md"
+  ],
+  "to_s": [
+    "files/color_rb.md",
+    "files/color_rb.md"
+  ],
+  "process_message": [
+    "files/gateway_client_rb.md"
+  ],
+  "mset": [
+    "files/redis_store_rb.md",
+    "files/redis_store_rb.md"
+  ],
+  "handle_disconnect": [
+    "files/gateway_client_rb.md"
+  ],
+  "attachment": [
+    "files/message_builder_rb.md",
+    "files/message_builder_rb.md"
+  ],
+  "started_onboarding?": [
+    "files/member_rb.md",
+    "files/member_rb.md"
+  ],
+  "start_shard": [
+    "files/shard_manager_rb.md"
+  ],
+  "analytics": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "remove_guild_member_role": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "run": [
+    "files/bot_rb.md",
+    "files/bot_rb.md",
+    "files/gateway_client_rb.md",
+    "files/gateway_client_rb.md",
+    "files/async_runtime_rb.md",
+    "files/async_runtime_rb.md"
+  ],
+  "me": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "cache_batch": [
+    "files/configurable_cache_rb.md",
+    "files/configurable_cache_rb.md"
+  ],
+  "ContextualLogger": [
+    "classes/index.md#ContextualLogger"
+  ],
+  "build_multipart_field": [
+    "files/rest_client_rb.md"
+  ],
+  "to_h": [
+    "files/base_rb.md",
+    "files/base_rb.md",
+    "files/message_builder_rb.md",
+    "files/message_builder_rb.md",
+    "files/application_command_rb.md",
+    "files/application_command_rb.md"
+  ],
+  "blend": [
+    "files/color_rb.md",
+    "files/color_rb.md"
+  ],
+  "likely_community?": [
+    "files/guild_rb.md",
+    "files/guild_rb.md"
+  ],
+  "Sticker": [
+    "classes/index.md#Sticker"
+  ],
+  "GuildDeleteEvent": [
+    "classes/index.md#GuildDeleteEvent"
+  ],
+  "GuildRoleDeleteEvent": [
+    "classes/index.md#GuildRoleDeleteEvent"
+  ],
+  "ResolvedData": [
+    "classes/index.md#ResolvedData"
+  ],
+  "off": [
+    "files/bus_rb.md",
+    "files/bus_rb.md"
+  ],
+  "has_handlers?": [
+    "files/bus_rb.md",
+    "files/bus_rb.md"
+  ],
+  "dispatch_with_middleware": [
+    "files/bus_rb.md"
+  ],
+  "execute_with_chain": [
+    "files/bus_rb.md"
+  ],
+  "handle_reconnect": [
+    "files/gateway_client_rb.md"
+  ],
+  "wait_for_route": [
+    "files/rate_limiter_rb.md",
+    "files/rate_limiter_rb.md"
+  ],
+  "ChannelCreateEvent": [
+    "classes/index.md#ChannelCreateEvent"
+  ],
+  "GuildBanAddEvent": [
+    "classes/index.md#GuildBanAddEvent"
+  ],
+  "normalize_event_type": [
+    "files/bus_rb.md"
+  ],
+  "shard": [
+    "files/shard_manager_rb.md",
+    "files/shard_manager_rb.md"
+  ],
+  "start_polling_watcher": [
+    "files/hot_reload_manager_rb.md"
+  ],
+  "files_to_watch": [
+    "files/hot_reload_manager_rb.md"
+  ],
+  "await_any": [
+    "files/async_runtime_rb.md",
+    "files/async_runtime_rb.md"
+  ],
+  "finalize_reshard": [
+    "files/reshard_manager_rb.md"
+  ],
+  "initialize_metrics": [
+    "files/analytics_plugin_rb.md"
+  ],
+  "shard_metrics": [
+    "files/analytics_plugin_rb.md"
+  ],
+  "GuildMemberRemoveEvent": [
+    "classes/index.md#GuildMemberRemoveEvent"
+  ],
+  "respawn": [
+    "files/shard_manager_rb.md",
+    "files/shard_manager_rb.md"
+  ],
+  "build_key": [
+    "files/entity_cache_rb.md"
+  ],
+  "request_allowed?": [
+    "files/invalid_bucket_rb.md",
+    "files/invalid_bucket_rb.md",
+    "files/request_queue_rb.md",
+    "files/request_queue_rb.md"
+  ],
+  "calculate_wait_time": [
+    "files/request_queue_rb.md",
+    "files/request_queue_rb.md"
+  ],
+  "status": [
+    "files/bot_rb.md",
+    "files/bot_rb.md",
+    "files/invalid_bucket_rb.md",
+    "files/invalid_bucket_rb.md",
+    "files/rate_limiter_rb.md",
+    "files/rate_limiter_rb.md",
+    "files/request_queue_rb.md",
+    "files/request_queue_rb.md",
+    "files/shard_manager_rb.md",
+    "files/shard_manager_rb.md"
+  ],
+  "update_presence": [
+    "files/bot_rb.md",
+    "files/bot_rb.md",
+    "files/gateway_client_rb.md",
+    "files/gateway_client_rb.md"
+  ],
+  "scan_files": [
+    "files/hot_reload_manager_rb.md"
+  ],
+  "health_report": [
+    "files/analytics_plugin_rb.md",
+    "files/analytics_plugin_rb.md"
+  ],
+  "cache_metrics": [
+    "files/analytics_plugin_rb.md"
+  ],
+  "TimeoutError": [
+    "classes/index.md#TimeoutError"
+  ],
+  "completed_onboarding?": [
+    "files/member_rb.md",
+    "files/member_rb.md"
+  ],
+  "process_headers": [
+    "files/scalable_rest_client_rb.md"
+  ],
+  "invalidate_many": [
+    "files/configurable_cache_rb.md",
+    "files/configurable_cache_rb.md"
+  ],
+  "handle_request": [
+    "files/invalid_bucket_rb.md",
+    "files/invalid_bucket_rb.md"
+  ],
+  "delete_guild_command": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "cleanup": [
+    "files/request_queue_rb.md",
+    "files/request_queue_rb.md"
+  ],
+  "setup_event_tracking": [
+    "files/analytics_plugin_rb.md"
+  ],
+  "build_url": [
+    "files/rest_client_rb.md"
+  ],
+  "ChannelUpdateEvent": [
+    "classes/index.md#ChannelUpdateEvent"
+  ],
+  "complementary": [
+    "files/color_rb.md",
+    "files/color_rb.md"
+  ],
+  "Subcommand": [
+    "classes/index.md#Subcommand"
+  ],
+  "unpin": [
+    "files/message_rb.md",
+    "files/message_rb.md"
+  ],
+  "delete_webhook": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "system_metrics": [
+    "files/analytics_plugin_rb.md",
+    "files/analytics_plugin_rb.md"
+  ],
+  "guild_ban": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "invalidate": [
+    "files/configurable_cache_rb.md",
+    "files/configurable_cache_rb.md"
+  ],
+  "cpu_usage": [
+    "files/analytics_plugin_rb.md",
+    "files/analytics_plugin_rb.md"
+  ],
+  "enable_scalable_rest": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "prefixed_key": [
+    "files/redis_store_rb.md"
+  ],
+  "has_components?": [
+    "files/message_rb.md",
+    "files/message_rb.md"
+  ],
+  "registered?": [
+    "files/registry_rb.md",
+    "files/registry_rb.md"
+  ],
+  "BadRequestError": [
+    "classes/index.md#BadRequestError",
+    "classes/index.md#BadRequestError"
+  ],
+  "MessageDeleteBulkEvent": [
+    "classes/index.md#MessageDeleteBulkEvent"
+  ],
+  "respond": [
+    "files/message_rb.md",
+    "files/message_rb.md",
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "setup_rest_tracking": [
+    "files/analytics_plugin_rb.md"
+  ],
+  "MessageReactionRemoveEvent": [
+    "classes/index.md#MessageReactionRemoveEvent"
+  ],
+  "display_color": [
+    "files/member_rb.md",
+    "files/member_rb.md"
+  ],
+  "channel_webhooks": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "MessageDeleteEvent": [
+    "classes/index.md#MessageDeleteEvent"
+  ],
+  "register_plugin": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "APIError": [
+    "classes/index.md#APIError",
+    "classes/index.md#APIError",
+    "classes/index.md#APIError"
+  ],
+  "GuildMemberUpdateEvent": [
+    "classes/index.md#GuildMemberUpdateEvent"
+  ],
+  "g": [
+    "files/color_rb.md",
+    "files/color_rb.md"
+  ],
+  "MessageUpdateEvent": [
+    "classes/index.md#MessageUpdateEvent"
+  ],
+  "check_gateway_health": [
+    "files/analytics_plugin_rb.md",
+    "files/analytics_plugin_rb.md"
+  ],
+  "component_data": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "edit_original": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "transfer_sessions": [
+    "files/reshard_manager_rb.md"
+  ],
+  "permissions": [
+    "files/application_command_rb.md",
+    "files/application_command_rb.md"
+  ],
+  "guild_channels": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "filter_by": [
+    "files/configurable_cache_rb.md",
+    "files/configurable_cache_rb.md"
+  ],
+  "dark?": [
+    "files/color_rb.md",
+    "files/color_rb.md"
+  ],
+  "cache": [
+    "files/entity_cache_rb.md"
+  ],
+  "notify_all_waiters": [
+    "files/rate_limiter_rb.md"
+  ],
+  "build_headers": [
+    "files/rest_client_rb.md",
+    "files/scalable_rest_client_rb.md"
+  ],
+  "simplify_reactions_url": [
+    "files/scalable_rest_client_rb.md"
+  ],
+  "jump_url": [
+    "files/base_rb.md"
+  ],
+  "await_all": [
+    "files/async_runtime_rb.md",
+    "files/async_runtime_rb.md"
+  ],
+  "to_option_format": [
+    "files/command_system_rb.md"
+  ],
+  "wait_for_global": [
+    "files/rate_limiter_rb.md"
+  ],
+  "schedule_reset": [
+    "files/invalid_bucket_rb.md",
+    "files/request_queue_rb.md"
+  ],
+  "remove_reaction": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "decompress_if_needed": [
+    "files/gateway_client_rb.md"
+  ],
+  "invalid_status?": [
+    "files/invalid_bucket_rb.md"
+  ],
+  "reset": [
+    "files/invalid_bucket_rb.md",
+    "files/invalid_bucket_rb.md",
+    "files/channel_rb.md",
+    "files/channel_rb.md"
+  ],
+  "schedule_global_reset": [
+    "files/rate_limiter_rb.md"
+  ],
+  "make_request": [
+    "files/scalable_rest_client_rb.md"
+  ],
+  "ThreadUpdateEvent": [
+    "classes/index.md#ThreadUpdateEvent"
+  ],
+  "handler": [
+    "files/application_command_rb.md",
+    "files/application_command_rb.md"
+  ],
+  "fetch_session_info": [
+    "files/shard_manager_rb.md",
+    "files/shard_manager_rb.md"
+  ],
+  "tts": [
+    "files/message_builder_rb.md",
+    "files/message_builder_rb.md"
+  ],
+  "shard_ready?": [
+    "files/shard_manager_rb.md",
+    "files/shard_manager_rb.md"
+  ],
+  "ResumedEvent": [
+    "classes/index.md#ResumedEvent"
+  ],
+  "ChannelDeleteEvent": [
+    "classes/index.md#ChannelDeleteEvent"
+  ],
+  "send_with_retry": [
+    "files/request_queue_rb.md",
+    "files/request_queue_rb.md"
+  ],
+  "reaction_count": [
+    "files/message_rb.md",
+    "files/message_rb.md"
+  ],
+  "SubcommandGroup": [
+    "classes/index.md#SubcommandGroup"
+  ],
+  "component_type": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "original_message": [
+    "files/interaction_rb.md",
+    "files/interaction_rb.md"
+  ],
+  "resolve_role": [
+    "files/interaction_rb.md"
+  ],
+  "setup_cache_tracking": [
+    "files/analytics_plugin_rb.md"
+  ],
+  "channel_message": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "handle_payload": [
+    "files/gateway_client_rb.md"
+  ],
+  "handle_dispatch": [
+    "files/gateway_client_rb.md"
+  ],
+  "light?": [
+    "files/color_rb.md",
+    "files/color_rb.md"
+  ],
+  "to_json": [
+    "files/base_rb.md",
+    "files/base_rb.md",
+    "files/analytics_plugin_rb.md",
+    "files/analytics_plugin_rb.md"
+  ],
+  "start_metrics_collection": [
+    "files/analytics_plugin_rb.md"
+  ],
+  "enabled": [
+    "files/registry_rb.md",
+    "files/registry_rb.md"
+  ],
+  "reload_files": [
+    "files/hot_reload_manager_rb.md"
+  ],
+  "reconnect_shard": [
+    "files/shard_manager_rb.md",
+    "files/shard_manager_rb.md"
+  ],
+  "dm_allowed": [
+    "files/application_command_rb.md",
+    "files/application_command_rb.md"
+  ],
+  "all": [
+    "files/registry_rb.md",
+    "files/registry_rb.md"
+  ],
+  "ThreadMembersUpdateEvent": [
+    "classes/index.md#ThreadMembersUpdateEvent"
+  ],
+  "EmbedBuilder": [
+    "classes/index.md#EmbedBuilder"
+  ],
+  "stats": [
+    "files/configurable_cache_rb.md",
+    "files/configurable_cache_rb.md",
+    "files/entity_cache_rb.md",
+    "files/entity_cache_rb.md",
+    "files/memory_store_rb.md",
+    "files/memory_store_rb.md",
+    "files/registry_rb.md",
+    "files/registry_rb.md"
+  ],
+  "update_token": [
+    "files/rest_proxy_rb.md",
+    "files/rest_proxy_rb.md"
+  ],
+  "RateLimitedError": [
+    "classes/index.md#RateLimitedError"
+  ],
+  "resume": [
+    "files/gateway_client_rb.md",
+    "files/gateway_client_rb.md"
+  ],
+  "r": [
+    "files/color_rb.md",
+    "files/color_rb.md"
+  ],
+  "respond_to_missing?": [
+    "files/member_rb.md"
+  ],
+  "Command": [
+    "classes/index.md#Command"
+  ],
+  "make_multipart_http_request": [
+    "files/rest_client_rb.md"
+  ],
+  "create_guild_channel": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "mark_old_shards_for_shutdown": [
+    "files/reshard_manager_rb.md"
+  ],
+  "guild": [
+    "files/bot_rb.md",
+    "files/bot_rb.md"
+  ],
+  "get_many": [
+    "files/configurable_cache_rb.md",
+    "files/configurable_cache_rb.md"
+  ],
+  "auto_reshard_if_needed": [
+    "files/reshard_manager_rb.md",
+    "files/reshard_manager_rb.md"
+  ],
+  "brightness": [
+    "files/color_rb.md",
+    "files/color_rb.md"
+  ],
+  "dm?": [
+    "files/base_rb.md"
+  ],
+  "DiscordRDA": [
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA",
+    "modules/index.md#DiscordRDA"
+  ],
+  "health_percentage": [
+    "files/invalid_bucket_rb.md",
+    "files/invalid_bucket_rb.md"
+  ],
+  "health_status": [
+    "files/analytics_plugin_rb.md"
+  ],
+  "fetch_widget_settings": [
+    "files/guild_rb.md",
+    "files/guild_rb.md"
+  ],
+  "handle_heartbeat_ack": [
+    "files/gateway_client_rb.md"
+  ],
+  "GuildCreateEvent": [
+    "classes/index.md#GuildCreateEvent"
+  ],
+  "clearable?": [
+    "files/request_queue_rb.md",
+    "files/request_queue_rb.md"
+  ]
+}

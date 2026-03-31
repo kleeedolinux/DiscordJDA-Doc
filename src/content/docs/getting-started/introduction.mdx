@@ -1,0 +1,72 @@
+---
+title: Introduction
+description: DiscordRDA - Modern Ruby library for Discord bot development with full Slash Commands and Component V2 support
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<span class="version-badge">v1.0.0</span>
+
+DiscordRDA (Ruby Development API) is a high-performance Ruby library for building Discord bots with modern async patterns, comprehensive Slash Command support, Component V2 architecture, and enterprise-grade scalability features.
+
+## Features
+
+<CardGrid stagger>
+  <Card title="⚡ Async Runtime" icon="rocket">
+    Built on Ruby 3.0+ Fiber scheduler for true concurrency
+  </Card>
+  <Card title="🏭 Factory Pattern" icon="seti:ruby">
+    Clean entity creation with `EntityFactory`
+  </Card>
+  <Card title="📡 Auto Sharding" icon="random">
+    Automatic and manual sharding with zero-downtime resharding
+  </Card>
+  <Card title="💾 Pluggable Cache" icon="seti:db">
+    Memory or Redis backends with pattern-based invalidation
+  </Card>
+  <Card title="🔌 Plugin System" icon="puzzle">
+    Extensible architecture for commands and features
+  </Card>
+  <Card title="📊 Rate Limiting" icon="seti:clock">
+    Advanced Discord API rate limit handling with queue management
+  </Card>
+</CardGrid>
+
+## Slash Commands & Interactions
+
+- **Full Slash Command API**: Create, edit, delete global and guild commands
+- **Context Menu Commands**: User and Message context menu support
+- **Autocomplete**: Real-time autocomplete with dynamic choices
+- **Modals**: Custom modal forms with text inputs
+- **Component V2**: Latest Discord components (buttons, selects, containers)
+
+## Enterprise Features
+
+- **Zero-Downtime Resharding**: Add shards without stopping the bot
+- **Hot Reload**: File system event-based code reloading
+- **Session Transfer**: Migrate guilds between shards seamlessly
+- **REST Proxy Support**: Horizontal scaling with proxy servers
+- **State Preservation**: Maintain sessions across reloads
+
+## Quick Example
+
+```ruby
+require 'discord_rda'
+
+bot = DiscordRDA::Bot.new(
+  token: ENV['DISCORD_TOKEN'],
+  intents: [:guilds, :guild_messages, :message_content]
+)
+
+bot.on(:message_create) do |event|
+  if event.content == '!ping'
+    event.message.respond(content: 'Pong!')
+  end
+end
+
+bot.run
+```
+
+<div class="tip-box">
+  **Tip**: DiscordRDA requires Ruby 3.0 or higher for optimal performance with the Fiber scheduler.
+</div>

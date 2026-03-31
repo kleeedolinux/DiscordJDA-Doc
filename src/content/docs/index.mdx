@@ -1,0 +1,76 @@
+---
+title: DiscordRDA Documentation
+description: Modern Ruby library for Discord bot development
+template: splash
+hero:
+  tagline: Build powerful Discord bots with Ruby
+  image:
+    file: ../../assets/logo.svg
+  actions:
+    - text: Get Started
+      link: /getting-started/introduction/
+      icon: right-arrow
+      variant: primary
+    - text: View on GitHub
+      link: https://github.com/klee0/discordRDA
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Features
+
+<CardGrid stagger>
+  <Card title="⚡ Async Runtime" icon="rocket">
+    Built on Ruby 3.0+ Fiber scheduler for true concurrency
+  </Card>
+  <Card title="🔌 Slash Commands" icon="seti:shell">
+    Full support for Discord's modern command interface
+  </Card>
+  <Card title="📡 Auto Sharding" icon="random">
+    Automatic sharding with zero-downtime resharding
+  </Card>
+  <Card title="💾 Pluggable Cache" icon="seti:db">
+    Memory or Redis backends with easy invalidation
+  </Card>
+  <Card title="🧩 Plugin System" icon="puzzle">
+    Extensible architecture for modular functionality
+  </Card>
+  <Card title="📊 Enterprise Ready" icon="seti:clock">
+    Rate limiting, hot reload, and horizontal scaling
+  </Card>
+</CardGrid>
+
+## Quick Example
+
+```ruby
+require 'discord_rda'
+
+bot = DiscordRDA::Bot.new(
+  token: ENV['DISCORD_TOKEN'],
+  intents: [:guilds, :guild_messages]
+)
+
+bot.slash('hello', 'Say hello') do |cmd|
+  cmd.string('name', 'Your name', required: true)
+  cmd.handler do |interaction|
+    name = interaction.option('name')
+    interaction.respond(content: "Hello, #{name}!")
+  end
+end
+
+bot.run
+```
+
+## Installation
+
+```bash
+gem install discord_rda
+```
+
+Or add to your Gemfile:
+
+```ruby
+gem 'discord_rda'
+```
