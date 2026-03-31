@@ -1,44 +1,41 @@
-# DiscordRDA Documentation
+# Website
 
-Modern documentation for DiscordRDA - a Ruby library for Discord bot development.
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-Built with [Astro Starlight](https://starlight.astro.build/).
-
-## Development
+## Installation
 
 ```bash
-# Install dependencies
-npm install
-
-# Start dev server
-npm run dev
-
-# Build
-npm run build
+yarn
 ```
+
+## Local Development
+
+```bash
+yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+## Build
+
+```bash
+yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ## Deployment
 
-Documentation is automatically deployed to GitHub Pages on push to main branch.
+Using SSH:
 
-## Structure
-
-```
-src/content/docs/
-├── getting-started/    # Installation, quick start, basics
-├── core/              # Architecture, bot setup, events, entities
-├── slash-commands/    # Commands, options, autocomplete
-├── interactions/      # Buttons, select menus, modals
-├── advanced/         # Sharding, caching, rate limiting
-├── reference/         # API reference, config, intents
-└── legacy/           # Version 0.x docs
+```bash
+USE_SSH=true yarn deploy
 ```
 
-## Version System
+Not using SSH:
 
-- **Current** (`/`) - Latest stable documentation
-- **Legacy** (`/legacy/v0`) - Previous version docs for migration
+```bash
+GIT_USER=<Your GitHub username> yarn deploy
+```
 
-## Contributing
-
-Edit Markdown/MDX files in `src/content/docs/`. The site auto-reloads on changes.
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

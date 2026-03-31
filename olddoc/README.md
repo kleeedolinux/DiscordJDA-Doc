@@ -217,7 +217,7 @@ end
 
 - [Getting Started](docs/getting_started.md)
 - [Architecture](docs/architecture.md)
-- [API Reference](https://rubydoc.info/github/juliaklee/discord_rda)
+- [API Reference](https://rubydoc.info/github/kleeedolinux/discordrda)
 
 ## Examples
 
