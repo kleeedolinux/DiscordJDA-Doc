@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'doc/**'
   workflow_dispatch:
 
 jobs:
@@ -14,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: doc
+        working-directory: .
     steps:
       - uses: actions/checkout@v4
         with:
@@ -28,7 +26,7 @@ jobs:
         with:
           node-version: 20
           cache: pnpm
-          cache-dependency-path: doc/pnpm-lock.yaml
+          cache-dependency-path: pnpm-lock.yaml
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
@@ -39,7 +37,7 @@ jobs:
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: doc/build
+          path: build
 
   deploy:
     name: Deploy to GitHub Pages
