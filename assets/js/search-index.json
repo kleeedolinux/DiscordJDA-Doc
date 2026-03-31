@@ -1,0 +1,158 @@
+[
+  {
+    "title": "Caching",
+    "description": "Configure caching for optimal performance",
+    "url": "/advanced/caching/",
+    "excerpt": "\n## Cache Backends\n\nDiscordRDA supports multiple cache backends.\n\n## Memory Cache (Default)\n\n```ruby\nbot = DiscordRDA::Bot.new(\n  token: ENV['DISCORD_TOKEN'],\n  cache: :memory,\n  max_cache_size: 10000..."
+  },
+  {
+    "title": "Hot Reload",
+    "description": "Development-time code reloading",
+    "url": "/advanced/hot-reload/",
+    "excerpt": "\n## Enabling Hot Reload\n\nReload code without restarting the bot during development.\n\n## Basic Setup\n\n```ruby\nbot = DiscordRDA::Bot.new(token: ENV['DISCORD_TOKEN'])\nbot.enable_hot_reload(watch_dir: 'li..."
+  },
+  {
+    "title": "Plugin System",
+    "description": "Extend DiscordRDA with plugins",
+    "url": "/advanced/plugins/",
+    "excerpt": "\n## Creating a Plugin\n\nPlugins extend bot functionality modularly.\n\n## Basic Plugin\n\n```ruby\nclass MusicPlugin < DiscordRDA::Plugin\n  def setup(bot)\n    @bot = bot\n    @players = {}\n  end\n  \n  def rea..."
+  },
+  {
+    "title": "Rate Limiting",
+    "description": "Handle Discord API rate limits",
+    "url": "/advanced/rate-limiting/",
+    "excerpt": "\n## Automatic Rate Limiting\n\nDiscordRDA handles rate limits automatically with queue management.\n\n## Basic Usage\n\n```ruby\nbot = DiscordRDA::Bot.new(token: ENV['DISCORD_TOKEN'])\n# Rate limiting is enab..."
+  },
+  {
+    "title": "Sharding",
+    "description": "Scale your bot with automatic sharding",
+    "url": "/advanced/sharding/",
+    "excerpt": "\n## What is Sharding?\n\nSharding splits your bot across multiple WebSocket connections to handle more guilds.\n\n## Automatic Sharding\n\nDiscordRDA automatically calculates required shards:\n\n```ruby\nbot =..."
+  },
+  {
+    "title": "Architecture",
+    "description": "Understanding DiscordRDA's layered architecture",
+    "url": "/core/architecture/",
+    "excerpt": "\nDiscordRDA follows a layered architecture designed for scalability and maintainability.\n\n## Architecture Overview\n\n```\n┌─────────────────────────────────────────────────────────────┐\n│               ..."
+  },
+  {
+    "title": "Bot Setup",
+    "description": "Setting up and running your Discord bot",
+    "url": "/core/bot-setup/",
+    "excerpt": "\n## Creating a Bot\n\n### Basic Setup\n\n```ruby\nrequire 'discord_rda'\n\nbot = DiscordRDA::Bot.new(\n  token: ENV['DISCORD_TOKEN'],\n  intents: [:guilds, :guild_messages]\n)\n```\n\n### Production Setup\n\n```ruby..."
+  },
+  {
+    "title": "Entities",
+    "description": "Understanding DiscordRDA entities and the Factory pattern",
+    "url": "/core/entities/",
+    "excerpt": "\n## Entity System\n\nDiscordRDA uses immutable entities with a Factory pattern for creation.\n\n## Core Entities\n\n### User\n\n```ruby\nuser = event.author\nuser.id          # User ID\nuser.username    # Userna..."
+  },
+  {
+    "title": "Event Handling",
+    "description": "Working with Discord gateway events",
+    "url": "/core/events/",
+    "excerpt": "\n## Event System\n\nDiscordRDA uses a pub/sub event system for handling Discord gateway events.\n\n## Basic Event Handling\n\n```ruby\nbot.on(:message_create) do |event|\n  puts \"Received: #{event.content}\"\ne..."
+  },
+  {
+    "title": "Configuration",
+    "description": "Configure DiscordRDA for your needs",
+    "url": "/getting-started/configuration/",
+    "excerpt": "\n## Basic Configuration\n\n```ruby\nbot = DiscordRDA::Bot.new(\n  token: ENV['DISCORD_TOKEN'],\n  application_id: ENV['DISCORD_APP_ID'],\n  shards: :auto,\n  cache: :redis,\n  intents: [:guilds, :guild_messag..."
+  },
+  {
+    "title": "Installation",
+    "description": "How to install DiscordRDA in your Ruby project",
+    "url": "/getting-started/installation/",
+    "excerpt": "\n## Requirements\n\n- Ruby >= 3.0\n- Bundler\n\n## Gem Installation\n\nAdd this line to your application's Gemfile:\n\n```ruby\ngem 'discord_rda'\n```\n\nThen execute:\n\n```bash\nbundle install\n```\n\nOr install it yo..."
+  },
+  {
+    "title": "Introduction",
+    "description": "DiscordRDA - A modern Ruby library for Discord bot development, filling the gap in the Ruby ecosystem for enterprise-grade Discord bot development.",
+    "url": "/getting-started/introduction/",
+    "excerpt": "\n<span class=\"version-badge\">v1.0.0</span>\n\nDiscordRDA (Ruby Development API) is a high-performance Ruby library designed from the ground up to address a critical gap in the Ruby ecosystem: the lack o..."
+  },
+  {
+    "title": "Quick Start",
+    "description": "Get your first Discord bot running in minutes",
+    "url": "/getting-started/quick-start/",
+    "excerpt": "\n## Basic Bot\n\nCreate a file named `bot.rb`:\n\n```ruby\nrequire 'discord_rda'\n\nbot = DiscordRDA::Bot.new(\n  token: ENV['DISCORD_TOKEN'],\n  intents: [:guilds, :guild_messages, :message_content]\n)\n\nbot.on..."
+  },
+  {
+    "title": "DiscordRDA Documentation",
+    "description": "Modern Ruby library for Discord bot development",
+    "url": "/index/",
+    "excerpt": "\nimport  from '@astrojs/starlight/components';\n\n## Features\n\n\n  \n  \n  \n  \n  \n</CardGrid>\n\n## Quick Example\n\n```ruby\nrequire 'discord_rda'\n\nbot = DiscordRDA::Bot.new(\n  token: ENV['DISCORD_TOKEN'],\n  i..."
+  },
+  {
+    "title": "Buttons",
+    "description": "Interactive button components",
+    "url": "/interactions/buttons/",
+    "excerpt": "\n## Button Basics\n\nButtons are interactive components that users can click.\n\n## Button Styles\n\n| Style | Description |\n|-------|-------------|\n| `:primary` | Blurple, for main actions |\n| `:secondary`..."
+  },
+  {
+    "title": "Deferred Responses",
+    "description": "Handle long-running operations",
+    "url": "/interactions/deferred/",
+    "excerpt": "\n## Why Defer?\n\nDiscord requires responses within 3 seconds. For slow operations, defer the response first.\n\n## Basic Defer\n\n```ruby\nbot.slash('slow', 'Long running command') do |cmd|\n  cmd.handler do..."
+  },
+  {
+    "title": "Modals",
+    "description": "Form modals for user input",
+    "url": "/interactions/modals/",
+    "excerpt": "\n## What are Modals?\n\nModals are popup forms that collect user input through text fields.\n\n## Showing a Modal\n\n```ruby\nbot.slash('feedback', 'Submit feedback') do |cmd|\n  cmd.handler do |interaction|\n..."
+  },
+  {
+    "title": "Select Menus",
+    "description": "Dropdown select menu components",
+    "url": "/interactions/select-menus/",
+    "excerpt": "\n## Select Menu Types\n\nDiscordRDA supports all Discord select menu types:\n\n| Type | Description |\n|------|-------------|\n| `string_select` | Select from predefined options |\n| `user_select` | Select u..."
+  },
+  {
+    "title": "API Reference",
+    "description": "DiscordRDA API reference",
+    "url": "/reference/api/",
+    "excerpt": "\n## Bot Class\n\n### Constructor\n\n```ruby\nDiscordRDA::Bot.new(options)\n```\n\n#### Options\n\n| Option | Type | Required | Description |\n|--------|------|----------|-------------|\n| `token` | String | Yes |..."
+  },
+  {
+    "title": "Configuration Options",
+    "description": "Complete configuration reference",
+    "url": "/reference/config/",
+    "excerpt": "\n## Bot Configuration\n\n### Basic Options\n\n```ruby\nDiscordRDA::Bot.new(\n  # Required\n  token: ENV['DISCORD_TOKEN'],\n  \n  # Optional - Application\n  application_id: ENV['DISCORD_APP_ID'],\n  \n  # Optiona..."
+  },
+  {
+    "title": "Gateway Intents",
+    "description": "Discord gateway intents reference",
+    "url": "/reference/intents/",
+    "excerpt": "\n## What are Intents?\n\nIntents control which events your bot receives from Discord's gateway.\n\n## Intent Categories\n\n### Guild Intents\n\n| Intent | Description | Privileged |\n|--------|-------------|--..."
+  },
+  {
+    "title": "Autocomplete",
+    "description": "Real-time autocomplete for slash commands",
+    "url": "/slash-commands/autocomplete/",
+    "excerpt": "\n## What is Autocomplete?\n\nAutocomplete provides real-time suggestions as users type in command options.\n\n## Basic Autocomplete\n\n```ruby\nbot.slash('search', 'Search items') do |cmd|\n  cmd.string('quer..."
+  },
+  {
+    "title": "Context Menu Commands",
+    "description": "User and Message context menu commands",
+    "url": "/slash-commands/context-menus/",
+    "excerpt": "\n## Context Menu Overview\n\nContext menus appear when right-clicking users or messages in Discord.\n\n## User Context Menu\n\nRight-click on a user:\n\n```ruby\nbot.context_menu(type: :user, name: 'High Five'..."
+  },
+  {
+    "title": "Creating Commands",
+    "description": "How to create slash commands",
+    "url": "/slash-commands/creating/",
+    "excerpt": "\n## Basic Command\n\n```ruby\nbot.slash('hello', 'Say hello') do |cmd|\n  cmd.handler do |interaction|\n    interaction.respond(content: 'Hello, World!')\n  end\nend\n```\n\n## Guild-Specific Commands\n\nFor test..."
+  },
+  {
+    "title": "Command Options & Arguments",
+    "description": "Working with slash command options",
+    "url": "/slash-commands/options/",
+    "excerpt": "\n## Option Types\n\nDiscordRDA supports all Discord option types:\n\n| Type | Method | Example Value |\n|------|--------|---------------|\n| String | `string()` | `\"Hello\"` |\n| Integer | `integer()` | `42` ..."
+  },
+  {
+    "title": "Slash Commands Overview",
+    "description": "Introduction to Discord slash commands",
+    "url": "/slash-commands/overview/",
+    "excerpt": "\n## What are Slash Commands?\n\nSlash Commands are Discord's modern command interface. They provide:\n\n- **Native UI**: Discord shows command suggestions as you type\n- **Type Safety**: Arguments have def..."
+  }
+]

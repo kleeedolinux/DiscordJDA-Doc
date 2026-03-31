@@ -1,0 +1,19 @@
+<header class="site-header">
+  <div class="header-content">
+    <a href="{{ '/' | relative_url }}" class="site-title">
+      <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="DiscordRDA" class="logo">
+      <span>{{ site.title | escape }}</span>
+    </a>
+    
+    <nav class="site-nav">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/getting-started/introduction' | relative_url }}">Docs</a>
+      <a href="https://github.com/kleeedolinux/discordRDA" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+    
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="Search docs...">
+      <div id="search-results"></div>
+    </div>
+  </div>
+</header>

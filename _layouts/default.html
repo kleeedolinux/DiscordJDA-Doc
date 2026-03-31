@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | escape }} - {{ site.title | escape }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
+  
+  {% seo %}
+  {% feed_meta %}
+</head>
+<body>
+  <div class="wrapper">
+    {% include header.html %}
+    
+    <div class="container">
+      {% include sidebar.html %}
+      
+      <main class="content">
+        {{ content }}
+      </main>
+    </div>
+    
+    {% include footer.html %}
+  </div>
+  
+  <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/docs-index.js' | relative_url }}"></script>
+</body>
+</html>
