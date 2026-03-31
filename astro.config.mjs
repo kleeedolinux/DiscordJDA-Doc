@@ -3,12 +3,12 @@ import starlight from '@astrojs/starlight';
 
 export default defineConfig({
   site: 'https://kleeeedolinux.github.io',
-  base: 'discordRDA',
+  base: '/discordRDA',
   integrations: [
     starlight({
       title: 'DiscordRDA',
       tagline: 'Modern Ruby library for Discord bot development',
-      favicon: '/favicon.svg',
+      favicon: './favicon.svg',
       logo: {
         src: './src/assets/logo.svg',
       },
