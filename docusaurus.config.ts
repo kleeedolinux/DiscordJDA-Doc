@@ -18,7 +18,7 @@ const config: Config = {
   url: 'https://kleeedolinux.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/DiscordRDA-Doc/',
 
   organizationName: 'kleeedolinux', // Usually your GitHub org/user name.
   projectName: 'discordrda', // Usually your repo name.
